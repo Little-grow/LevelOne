@@ -19,7 +19,7 @@ public:
             }
          }
       }
-      grid[0][0] = x;
+       grid[0][0] = x;
    }
    vector<vector<int>> shiftGrid(vector<vector<int>>& g, int k) {
       while(k--){
