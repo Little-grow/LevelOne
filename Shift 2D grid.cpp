@@ -2,16 +2,7 @@
 #include<vector>
 using namespace std;
 
-void print_vector(vector<vector<int> > v){
 
-   for(int i = 0; i<v.size(); i++){
-      cout << "[";
-      for(int j = 0; j <v[i].size(); j++){
-         cout << v[i][j] <<", ";
-      }
-      cout << "]\n";
-   }
-}
 class Solution {
 public:
    void shift(vector<vector<int>>& grid){
