@@ -5,13 +5,20 @@ using namespace std;
 
 int findLucky(vector<int>& arr)
  {
-    int freq[500] {};
+    int freq[501] {};
     for(int x : arr)
     {
         ++freq[x];
     }
-    for (int i= 1 ; i <= 500; i ++)
-        if(freq[i]==i)
-            return i;
-    return -1;
+    int best = -1;
+    for (int i= 2 ; i <= 500; i ++)
+     {
+         if(freq[i]==i)
+            best = max(best,i);
+     }
+    return best;
  }
+int main()
+{
+return 0;
+}
