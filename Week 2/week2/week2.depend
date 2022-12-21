@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1671586208 source:d:\levelone\week 2\week2\409. longest palindrome.cpp
+	<iostream>
+	<unordered_map>
+
+1671587236 source:d:\levelone\week 2\week2\1. two sum.cpp
+	<iostream>
+	<unordered_map>
+	<vector>
+
+1671591839 source:d:\levelone\week 2\week2\219. contains duplicate ii.cpp
+	<iostream>
+	<unordered_map>
+	<vector>
+
