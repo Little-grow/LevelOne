@@ -8,6 +8,7 @@ public:
     {
         size_t  pos = 0;
         vector<string> res;
+        str += " ";
         string token = "";
         while (( pos = str.find (delim)) != string::npos)
          {
