@@ -7,14 +7,16 @@ class Solution {
 public:
     ListNode* reverseList(ListNode* head) 
     {
-        while (head &&& head->next)
+        ListNode* temp = nullptr;
+        ListNode* prev = nullptr;
+        while (head)
         {
-            auto* temp = head->next;
-            head->next = head->next->next;
+            temp = head->next;
+            head->next = prev;
+            prev = head;
             head = temp;
         }
-        return head;
+        return prev;
     }
-    /* √‰  Õ·› Ì √‰ﬂ „‘ Â »’Ì ›Ì Õ·Ê· ·ÌÂ«*/
 };
 

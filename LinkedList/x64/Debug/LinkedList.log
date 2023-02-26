@@ -1,0 +1,6 @@
+﻿  203. Remove Linked List Elements.cpp
+  206. Reverse Linked List.cpp
+  ListNode.cpp
+  Generating Code...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\_LevelOne\LinkedList\x64\Debug\LinkedList.exe : fatal error LNK1120: 1 unresolved externals
